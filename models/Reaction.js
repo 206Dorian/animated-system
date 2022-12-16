@@ -1,3 +1,10 @@
+const mongoose = require('mongoose');
+
+const ThoughtsSchema = new mongoose.Schema({
+    thoughtText: { type: string, }
+})
+
+
 // Reaction (SCHEMA ONLY)
 
 // reactionId
